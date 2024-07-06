@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.todo-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .todo-inputs {
+    margin-bottom: 10px;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .todo-inputs input {
+    margin-right: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .todo-inputs button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-inputs button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
